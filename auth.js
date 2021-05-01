@@ -11,10 +11,10 @@ const mysql = require('mysql2')
 module.exports = class AuthObj {
     constructor() {
         this.connection = mysql.createConnection({
-            host: 'localhost',
-            user: 'root',
-            password: 'password',
-            database: 'users'
+            host: 'us-cdbr-east-03.cleardb.com',
+            user: 'bb43b481ba0010',
+            password: '8f3c0359',
+            database: 'heroku_08c0b6889d72a7b'
         })
         this.connection.connect()
         this.secretKey = "Mi*7N3D4k@&,4Dkl)98MdKj*7%nMQ3Tf"
