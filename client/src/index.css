@@ -1,0 +1,250 @@
+html,body,#root{
+    background-color: #333;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    margin:0%;
+    padding:0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+}
+
+.login {
+    border-radius: 25px;
+    height: 200px;
+    border: 15px solid grey;
+    padding: 30px 150px;
+    background-color: cadetblue;
+    margin: auto;
+}
+
+.login > textarea{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+    border-radius: 25px;
+    width: 90%;
+    resize: none;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login > span{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+    width: 90%;
+    resize: none;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login > input{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+    border-radius: 25px;
+    width: 90%;
+    resize: none;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login > button{
+    width: 50%;
+    padding: 5px;
+    border-radius: 25px;
+    margin: auto auto 4px;
+}
+
+.login > h1 {
+    text-align: center;
+    margin: 0px;
+}
+.login > h2 {
+    padding: 50px;
+    text-align: center;
+    margin: 0px;
+    font-size: 35px;
+}
+
+.homepage {
+    border-radius: 25px;
+    border: 15px solid grey;
+    padding: 80px 150px 30px;
+    margin: auto;
+    background-color: cadetblue;
+}
+.homepage > button{
+    display: block;
+    padding: 10px 150px;
+    border-radius: 25px;
+    margin: auto auto 20px;
+    font-size: 40px;
+}
+.waitingroom {
+    border-radius: 25px;
+    border: 15px solid grey;
+    padding: 10px 150px;
+    margin: auto;
+    background-color: cadetblue;
+}
+
+.waitingroom > button{
+    display: block;
+    padding: 5px;
+    border-radius: 25px;
+    margin: auto auto 20px;
+    font-size: 40px;
+}
+
+.waitingroom > input{
+    display: block;
+    margin: auto;
+    width: 78%;
+    border-radius: 25px;
+    resize: none;
+    margin: auto auto 20px;
+    padding: 20px 5px 5px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.waitingroom > span{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 0px;
+    width: 90%;
+    resize: none;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.waitingroom > h1 {
+    display: block;
+    padding: 10px 150px;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+.waitingroom > h2 {
+    display: block;
+    padding: 10px 150px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+textarea {
+    outline: none;
+}
+
+.GamePage {
+    border-radius: 25px;
+    width: 80%;
+    height: 100%;
+    border: 15px solid grey;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin: auto;
+    background-color: cadetblue;
+}
+
+.strikeMarker {
+    height: 80px;
+    width: 80px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 6px;
+    display: block;
+}
+
+.strikeMarkerList {
+    margin: auto;
+    border: 3px solid grey;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(5px 10px 4px #5C5C65FF);
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 75%;
+    filter: drop-shadow(5px 10px 4px #5C5C65FF);
+}
+.middleColumn{
+    width:90%;
+    background-color: cadetblue;
+    border: 3px solid grey;
+    filter: drop-shadow(5px 10px 4px #5c5c65);
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    text-wrap: initial;
+    word-wrap: anywhere;
+    display: flex;
+}
+
+#lyrics {
+    font-size: 40px;
+}
+
+#timer {
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    text-align: center;
+}
+
+#info {
+    font-size: 40px;
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+}
+
+#answer {
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+}
+
+.endScreen {
+    border-radius: 25px;
+    height: 200px;
+    border: 15px solid grey;
+    padding: 30px 150px;
+    background-color: cadetblue;
+    margin: auto;
+}
+
+.endScreen > button {
+    display: block;
+    border-radius: 25px;
+    margin: auto auto 20px;
+    font-size: 20px;
+}
+
+.endScreen > h1 {
+    text-align: center;
+    margin: 0px;
+}
